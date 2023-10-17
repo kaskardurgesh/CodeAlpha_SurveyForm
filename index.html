@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Business/Organization Survey Form</h1>
+        <h2 id="subheading"><i>Thank you for taking the time to help us improve the platform.</i></h2>
+    </div>
+
+    <form>
+        <div id="content1">
+            <label for="fname">First Name :</label><br><br>
+            <input type="text" placeholder="Enter First Name" name="fname" class="box"><br><br>
+            <label for="lname">Last Name :</label><br><br>
+            <input type="text" placeholder="Enter Last Name" name="lname" class="box"><br><br>
+            <label for="age">Age :</label><br><br>
+            <input type="text" placeholder="Enter Age" name="age" class="box"><br><br>
+            <label for="Gender">Choose Gender  :</label><br><br>
+            <div id="option0">
+            <select name="Gender" id="Gender">
+                <option value="Male"></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select><br><br>
+            <label for="email">Email Id :</label><br><br>
+            <input type="text" placeholder="Enter Email Id" name="email" class="box"><br><br>
+            
+
+            <p>1. Overall, how Satisfied or Disatisfied are you with the company?</p><br>
+
+            <input type="radio" id="opt1" name="opt1" value="very_satisfied">
+            <label for="opt1">Very satisfied</label><br>
+
+            <input type="radio" id="opt2" name="opt1" value="somewhat_satisfied">
+             <label for="opt2">Somewhat satisfied</label><br>
+
+            <input type="radio" id="opt3" name="opt1" value="very_dissatisfied">
+            <label for="opt3">Very dissatisfied</label><br>
+
+            <input type="radio" id="opt4" name="opt1" value="somewhat_dissatisfied">
+            <label for="opt4">Somewhat dissatisfied.</label><br><br>
+
+
+            <p>2. Which of the following words would you use to describe our products? select all that apply.</p><br>
+            <input type="checkbox" id="option1" name="option1" value="reliable">
+            <label for="option1">  Reliable</label><br>
+            <input type="checkbox" id="option2" name="option2" value="high quality">
+            <label for="option2">  High quality</label><br>
+            <input type="checkbox" id="option3" name="option3" value="Poor">
+            <label for="option3">  Poor</label><br>
+            <input type="checkbox" id="option4" name="option4" value="Waste of money">
+            <label for="option4">  Waste of money</label><br>
+            <input type="checkbox" id="option5" name="option5" value="value for money">
+            <label for="option5">  Value for money</label><br>
+            <input type="checkbox" id="option6" name="option6" value="Useful">
+            <label for="option6">  Useful</label><br>
+            <input type="checkbox" id="option7" name="option7" value="unique">
+            <label for="option7">  Unique.</label><br><br>
+
+            <p>3. How well do our products meet your needs?</p><br>
+
+           <input type="radio" id="qua1" name="quality" value="Extremely well">
+           <label for="qua">Extremely well</label><br>
+
+           <input type="radio" id="qua2" name="quality" value="Very well">
+           <label for="qua2">Very well</label><br>
+
+           <input type="radio" id="qua3" name="quality" value="Not so well">
+           <label for="qua3">Not so well</label><br>
+
+           <input type="radio" id="qua4" name="quality" value="Not at all well">
+           <label for="qua4">Not at all well.</label><br><br>
+
+
+            <p>4. How would you rate the quality of the product?</p><br>
+            <input type="radio" id="qual1" name="qualitys" value="High quality">
+            <label for="qual1">  High quality</label><br>
+            <input type="radio" id="qual2" name="qualitys" value="Very high quality">
+            <label for="qual2">  Very high quality</label><br>
+            <input type="radio" id="qual3" name="qualitys" value="Low quality">
+            <label for="qual3">  Low quality</label><br>
+            <input type="radio" id="qual4" name="qualitys" value="Very low quality">
+            <label for="qual4">  Very low quality.</label><br><br>
+
+            <p>5. How would you rate the value for money of the product?</p><br>
+            <input type="radio" id="val1" name="valu" value="Excellent">
+            <label for="val1">  Excellent</label><br>
+            <input type="radio" id="val2" name="valu" Average="opt">
+            <label for="val2">  Average</label><br>
+            <input type="radio" id="val3" name="valu" value="Good">
+            <label for="val3">  Good</label><br>
+            <input type="radio" id="val4" name="valu" value="Worst">
+            <label for="val4">  Worst</label><br>
+            <input type="radio" id="val5" name="valu" value="Below average">
+            <label for="val5">  Below average.</label><br><br>
+
+            <p>6. How responsive have we been to your questions about our services?</p><br>
+            <input type="radio" id="ser1" name="service" value="Extremely responsive">
+            <label for="ser1">  Extremely responsive</label><br>
+            <input type="radio" id="ser2" name="service" value="Very responsive">
+            <label for="ser2">  Very responsive</label><br>
+            <input type="radio" id="ser3" name="service" value="Somewhat responsive">
+            <label for="ser3">  Somewhat responsive</label><br>
+            <input type="radio" id="ser4" name="service" value="Not so responsive">
+            <label for="ser4">  Not so responsive</label><br>
+            <input type="radio" id="ser5" name="service" value="Not at all responsive">
+            <label for="ser5">  Not at all responsive.</label><br><br>
+
+            <p>7. How long have you been a customer of our company?</p><br>
+            <input type="radio" id="loy1" name="loyal" value="This is my first purchase">
+            <label for="loy1">  This is my first purchase</label><br>
+            <input type="radio" id="loy2" name="loyal" value="Less than 6 months">
+            <label for="loy2">  Less than 6 months</label><br>
+            <input type="radio" id="loy3" name="loyal" value="6 months to a year">
+            <label for="loy3">  6 months to a year</label><br>
+            <input type="radio" id="loy4" name="loyal" value="One or two years">
+            <label for="loy4">  One or two years</label><br>
+            <input type="radio" id="loy5" name="loyal" value="I haven't made a purchase yet">
+            <label for="loy5">  I haven't made a purchase yet.</label><br><br>
+
+            <p>8. How likely are you to purchase any of our products again?</p><br>
+            <input type="radio" id="rep1" name="repurchase" value="Extremely likely">
+            <label for="rep1">  Extremely likely</label><br>
+            <input type="radio" id="rep2" name="repurchase" value="Not so likely">
+            <label for="rep2">  Not so likely</label><br>
+            <input type="radio" id="rep3" name="repurchase" value="Very likely">
+            <label for="rep3">  Very likely</label><br>
+            <input type="radio" id="rep4" name="repurchase" value="Not at all likely">
+            <label for="rep4">  Not at all likely</label><br>
+            <input type="radio" id="rep5" name="repurchase" value="Somewhat likely">
+            <label for="rep5">  Somewhat likely.</label><br><br>
+
+            <label id="head2">Any feedback you want to provide?</label><br><br><br>
+            <textarea placeholder="Please Enter Your Feedback here....."></textarea><br>
+
+            <button><h3>Submit</h3></button>
+           </div> 
+        </div>
+    </form>
+    
+</body>
+</html>
